@@ -1,0 +1,515 @@
+fileFormatVersion: 2
+guid: 027060377c02f234c9ab1868ec42890b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: barrel
+    100002: barrier1
+    100004: barrier2
+    100006: barrier_wall
+    100008: base
+    100010: church
+    100012: //RootNode
+    100014: entrance
+    100016: house_a_1
+    100018: house_b_1
+    100020: house_b_2
+    100022: house_c_1
+    100024: imagePlane1
+    100026: large_hill
+    100028: large_hill2
+    100030: large_mount
+    100032: large_mount2
+    100034: large_mount3
+    100036: leg1
+    100038: leg1 1
+    100040: leg10
+    100042: leg10 1
+    100044: leg11
+    100046: leg12
+    100048: leg13
+    100050: leg14
+    100052: leg15
+    100054: leg2
+    100056: leg2 1
+    100058: leg3
+    100060: leg3 1
+    100062: leg4
+    100064: leg4 1
+    100066: leg5
+    100068: leg5 1
+    100070: leg6
+    100072: leg6 1
+    100074: leg7
+    100076: leg7 1
+    100078: leg8
+    100080: leg8 1
+    100082: leg9
+    100084: leg9 1
+    100086: leg_11
+    100088: leg_12
+    100090: leg_13
+    100092: leg_14
+    100094: leg_15
+    100096: medium_hill
+    100098: medium_hill1
+    100100: medium_mount
+    100102: medium_mount2
+    100104: medium_mount3
+    100106: medium_mount4
+    100108: metal_barrier
+    100110: mountains
+    100112: road
+    100114: roof
+    100116: roof 1
+    100118: roof 2
+    100120: roof1
+    100122: roof2
+    100124: sands
+    100126: small_hill
+    100128: small_hill2
+    100130: small_hill3
+    100132: small_hill4
+    100134: small_hill5
+    100136: small_hill6
+    100138: small_mount1
+    100140: small_mount2
+    100142: supports
+    100144: tower
+    100146: tower 1
+    100148: wall
+    100150: wall 1
+    100152: walls
+    100154: walls 1
+    100156: walls 2
+    100158: warehouse1
+    100160: warehouse2
+    100162: warehouse3
+    100164: water
+    100166: water_tower
+    100168: Xlarge_mont
+    100170: xlarge_mount2
+    400000: barrel
+    400002: barrier1
+    400004: barrier2
+    400006: barrier_wall
+    400008: base
+    400010: church
+    400012: //RootNode
+    400014: entrance
+    400016: house_a_1
+    400018: house_b_1
+    400020: house_b_2
+    400022: house_c_1
+    400024: imagePlane1
+    400026: large_hill
+    400028: large_hill2
+    400030: large_mount
+    400032: large_mount2
+    400034: large_mount3
+    400036: leg1
+    400038: leg1 1
+    400040: leg10
+    400042: leg10 1
+    400044: leg11
+    400046: leg12
+    400048: leg13
+    400050: leg14
+    400052: leg15
+    400054: leg2
+    400056: leg2 1
+    400058: leg3
+    400060: leg3 1
+    400062: leg4
+    400064: leg4 1
+    400066: leg5
+    400068: leg5 1
+    400070: leg6
+    400072: leg6 1
+    400074: leg7
+    400076: leg7 1
+    400078: leg8
+    400080: leg8 1
+    400082: leg9
+    400084: leg9 1
+    400086: leg_11
+    400088: leg_12
+    400090: leg_13
+    400092: leg_14
+    400094: leg_15
+    400096: medium_hill
+    400098: medium_hill1
+    400100: medium_mount
+    400102: medium_mount2
+    400104: medium_mount3
+    400106: medium_mount4
+    400108: metal_barrier
+    400110: mountains
+    400112: road
+    400114: roof
+    400116: roof 1
+    400118: roof 2
+    400120: roof1
+    400122: roof2
+    400124: sands
+    400126: small_hill
+    400128: small_hill2
+    400130: small_hill3
+    400132: small_hill4
+    400134: small_hill5
+    400136: small_hill6
+    400138: small_mount1
+    400140: small_mount2
+    400142: supports
+    400144: tower
+    400146: tower 1
+    400148: wall
+    400150: wall 1
+    400152: walls
+    400154: walls 1
+    400156: walls 2
+    400158: warehouse1
+    400160: warehouse2
+    400162: warehouse3
+    400164: water
+    400166: water_tower
+    400168: Xlarge_mont
+    400170: xlarge_mount2
+    2100000: grass
+    2100002: lambert16
+    2100004: water1
+    2100006: mountain2
+    2100008: mountain1
+    2100010: mountain3
+    2100012: homeroof
+    2100014: homewalls
+    2100016: houseroof
+    2100018: walls2
+    2100020: warehouse_yellow
+    2100022: warehouse_roof
+    2100024: warehouse_red
+    2100026: barrel1
+    2100028: watertowercolor
+    2100030: watertowersupports
+    2100032: barrrier_metal
+    2100034: wood
+    2100036: warehouse_blue
+    2100038: houseroof3
+    2100040: lambert28
+    2100042: houseroof2
+    2100044: housewalls2
+    2100046: white_walls
+    2100048: brown_roof
+    2100050: hill_bright_green
+    2100052: sand
+    2300000: barrel
+    2300002: barrier_wall
+    2300004: base
+    2300006: entrance
+    2300008: large_hill
+    2300010: large_hill2
+    2300012: large_mount
+    2300014: large_mount2
+    2300016: large_mount3
+    2300018: leg1
+    2300020: leg1 1
+    2300022: leg10
+    2300024: leg10 1
+    2300026: leg11
+    2300028: leg12
+    2300030: leg13
+    2300032: leg14
+    2300034: leg15
+    2300036: leg2
+    2300038: leg2 1
+    2300040: leg3
+    2300042: leg3 1
+    2300044: leg4
+    2300046: leg4 1
+    2300048: leg5
+    2300050: leg5 1
+    2300052: leg6
+    2300054: leg6 1
+    2300056: leg7
+    2300058: leg7 1
+    2300060: leg8
+    2300062: leg8 1
+    2300064: leg9
+    2300066: leg9 1
+    2300068: leg_11
+    2300070: leg_12
+    2300072: leg_13
+    2300074: leg_14
+    2300076: leg_15
+    2300078: medium_hill
+    2300080: medium_hill1
+    2300082: medium_mount
+    2300084: medium_mount2
+    2300086: medium_mount3
+    2300088: medium_mount4
+    2300090: metal_barrier
+    2300092: road
+    2300094: roof
+    2300096: roof 1
+    2300098: roof 2
+    2300100: roof1
+    2300102: roof2
+    2300104: sands
+    2300106: small_hill
+    2300108: small_hill2
+    2300110: small_hill3
+    2300112: small_hill4
+    2300114: small_hill5
+    2300116: small_hill6
+    2300118: small_mount1
+    2300120: small_mount2
+    2300122: supports
+    2300124: tower
+    2300126: tower 1
+    2300128: wall
+    2300130: wall 1
+    2300132: walls
+    2300134: walls 1
+    2300136: walls 2
+    2300138: warehouse1
+    2300140: warehouse2
+    2300142: warehouse3
+    2300144: water
+    2300146: Xlarge_mont
+    2300148: xlarge_mount2
+    3300000: barrel
+    3300002: barrier_wall
+    3300004: base
+    3300006: entrance
+    3300008: large_hill
+    3300010: large_hill2
+    3300012: large_mount
+    3300014: large_mount2
+    3300016: large_mount3
+    3300018: leg1
+    3300020: leg1 1
+    3300022: leg10
+    3300024: leg10 1
+    3300026: leg11
+    3300028: leg12
+    3300030: leg13
+    3300032: leg14
+    3300034: leg15
+    3300036: leg2
+    3300038: leg2 1
+    3300040: leg3
+    3300042: leg3 1
+    3300044: leg4
+    3300046: leg4 1
+    3300048: leg5
+    3300050: leg5 1
+    3300052: leg6
+    3300054: leg6 1
+    3300056: leg7
+    3300058: leg7 1
+    3300060: leg8
+    3300062: leg8 1
+    3300064: leg9
+    3300066: leg9 1
+    3300068: leg_11
+    3300070: leg_12
+    3300072: leg_13
+    3300074: leg_14
+    3300076: leg_15
+    3300078: medium_hill
+    3300080: medium_hill1
+    3300082: medium_mount
+    3300084: medium_mount2
+    3300086: medium_mount3
+    3300088: medium_mount4
+    3300090: metal_barrier
+    3300092: road
+    3300094: roof
+    3300096: roof 1
+    3300098: roof 2
+    3300100: roof1
+    3300102: roof2
+    3300104: sands
+    3300106: small_hill
+    3300108: small_hill2
+    3300110: small_hill3
+    3300112: small_hill4
+    3300114: small_hill5
+    3300116: small_hill6
+    3300118: small_mount1
+    3300120: small_mount2
+    3300122: supports
+    3300124: tower
+    3300126: tower 1
+    3300128: wall
+    3300130: wall 1
+    3300132: walls
+    3300134: walls 1
+    3300136: walls 2
+    3300138: warehouse1
+    3300140: warehouse2
+    3300142: warehouse3
+    3300144: water
+    3300146: Xlarge_mont
+    3300148: xlarge_mount2
+    4300000: base
+    4300002: road
+    4300004: water
+    4300006: Xlarge_mont
+    4300008: large_mount
+    4300010: medium_mount2
+    4300012: medium_mount
+    4300014: xlarge_mount2
+    4300016: medium_mount3
+    4300018: medium_mount4
+    4300020: large_mount2
+    4300022: small_mount2
+    4300024: large_mount3
+    4300026: small_mount1
+    4300028: roof
+    4300030: walls
+    4300032: roof
+    4300034: walls
+    4300036: warehouse1
+    4300038: warehouse2
+    4300040: barrel
+    4300042: tower
+    4300044: supports
+    4300046: metal_barrier
+    4300048: leg1
+    4300050: leg2
+    4300052: leg3
+    4300054: leg4
+    4300056: leg5
+    4300058: leg6
+    4300060: leg7
+    4300062: leg8
+    4300064: leg9
+    4300066: leg10
+    4300068: leg_11
+    4300070: leg_12
+    4300072: leg_13
+    4300074: leg_14
+    4300076: leg_15
+    4300078: warehouse3
+    4300080: barrier_wall
+    4300082: leg1
+    4300084: leg2
+    4300086: leg3
+    4300088: leg4
+    4300090: leg5
+    4300092: leg6
+    4300094: leg7
+    4300096: leg8
+    4300098: leg9
+    4300100: leg10
+    4300102: leg11
+    4300104: leg12
+    4300106: leg13
+    4300108: leg14
+    4300110: leg15
+    4300112: roof2
+    4300114: roof1
+    4300116: wall
+    4300118: roof
+    4300120: wall
+    4300122: tower
+    4300124: entrance
+    4300126: walls
+    4300128: medium_hill
+    4300130: small_hill
+    4300132: large_hill
+    4300134: small_hill2
+    4300136: small_hill3
+    4300138: large_hill2
+    4300140: sands
+    4300142: small_hill4
+    4300144: small_hill5
+    4300146: small_hill6
+    4300148: medium_hill1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
