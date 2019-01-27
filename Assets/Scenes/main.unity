@@ -820,11 +820,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 655124122}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.0044936715
-  m_Height: 0.026856123
-  m_Direction: 2
-  m_Center: {x: 0, y: 2.2542458e-18, z: 0.0034030436}
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &655124125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1162,6 +1162,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796006290}
   m_CullTransparentMesh: 0
+--- !u!1 &908727166 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1280966051548052, guid: ce38663274a6a1848883d17ef81c86ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 17999521}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &908727170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908727166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d708554d58b76c4e8cd668a2f4b176f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidlayer:
+    serializedVersion: 2
+    m_Bits: 0
+  breakForce: Infinity
+  breakTorque: Infinity
 --- !u!4 &930529609 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4163370972115306, guid: ce38663274a6a1848883d17ef81c86ab,
