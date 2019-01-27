@@ -8,6 +8,8 @@ public class SetTime : MonoBehaviour {
 
 	public void timeSlider(float musicLvl)
 	{
+        Debug.Log("Pausing Time 3");
+    
         Time.timeScale = musicLvl;
     }
     

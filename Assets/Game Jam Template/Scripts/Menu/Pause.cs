@@ -41,7 +41,8 @@ public class Pause : MonoBehaviour {
 	{
 		//Set isPaused to true
 		isPaused = true;
-		//Set time.timescale to 0, this will cause animations and physics to stop updating
+        //Set time.timescale to 0, this will cause animations and physics to stop updating
+        Debug.Log("Pausing Time 1");
 		Time.timeScale = 0;
 		//call the ShowPausePanel function of the ShowPanels script
 		showPanels.ShowPausePanel ();
