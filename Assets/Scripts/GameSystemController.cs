@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GameSystemController : MonoBehaviour {
 
-    float timeElapsed = 0f;
+    public float timeElapsed = 0f;
     public GameObject timeCounter;
 
 

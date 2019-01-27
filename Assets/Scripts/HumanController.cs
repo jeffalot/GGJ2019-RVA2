@@ -24,7 +24,7 @@ public class HumanController : MonoBehaviour
     }
     void Update()
     {
-        if (Input.anyKey && !scooterMode) // only execute if a key is being pressed
+        if ((Input.GetAxis("Horizontal") != 0f || Input.GetAxis("Vertical") != 0f) && !scooterMode) // only execute if a key is being pressed
             Move();
 
         if (Input.anyKeyDown & scooterMode) // only execute if a key is being pressed
@@ -41,8 +41,9 @@ public class HumanController : MonoBehaviour
         //rb.AddForce((rightMovement + upMovement));
 
         Vector3 heading = Vector3.Normalize(rightMovement + upMovement); // This creates our new direction. By combining our right and forward movements and normalizing them, we create a new vector that points in the appropriate direction with a length no greater than 1.0transform.forward = heading; // Sets forward direction of our game object to whatever direction we're moving intransform.position += rightMovement; // move our transform's position right/left     transform.position += upMovement; // Move our transform's position up/down
+        //float angle = Vector3.Angle(targetDir, transform.forward);
+        
 
-       
 
 
     }

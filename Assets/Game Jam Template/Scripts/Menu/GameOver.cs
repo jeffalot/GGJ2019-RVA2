@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class GameOver : MonoBehaviour {
 
@@ -45,9 +46,18 @@ public class GameOver : MonoBehaviour {
         //Set time.timescale to 0, this will cause animations and physics to stop updating
         Debug.Log("Pausing Time 2");
         Time.timeScale = 0;
-		//call the ShowPausePanel function of the ShowPanels script
-		showPanels.ShowGameOver();
-	}
+        //call the ShowPausePanel function of the ShowPanels script
+
+
+        int timeElapsed = (int) GameObject.Find("Game_Logic").GetComponent<GameSystemController>().timeElapsed;
+
+
+        showPanels.ShowGameOver();
+
+
+        Text text = (Text)GameObject.Find("TimeText").GetComponent<Text>();
+        text.text = "Time: " + (int)timeElapsed;
+    }
 
 
 	public void UnPause()
