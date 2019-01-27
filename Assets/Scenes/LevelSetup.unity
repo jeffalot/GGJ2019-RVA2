@@ -1030,8 +1030,8 @@ Transform:
   m_Children:
   - {fileID: 607301024}
   - {fileID: 757053480}
-  - {fileID: 525598909}
   - {fileID: 634344657}
+  - {fileID: 525598909}
   m_Father: {fileID: 2127785643}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2896,6 +2896,7 @@ GameObject:
   - component: {fileID: 2001268120}
   - component: {fileID: 2001268121}
   - component: {fileID: 2001268122}
+  - component: {fileID: 2001268123}
   m_Layer: 0
   m_Name: CarRoot
   m_TagString: Vehicle
@@ -2942,7 +2943,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001268117}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7f0b03fff16291488ee6a8ee50be237, type: 3}
   m_Name: 
@@ -2984,6 +2985,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1.6500297
   m_Center: {x: -0.035698414, y: 0, z: 0}
+--- !u!114 &2001268123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001268117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f0b03fff16291488ee6a8ee50be237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axleInfos: []
+  maxMotorTorque: 0
+  maxSteeringAngle: 0
 --- !u!1001 &2112475112
 PrefabInstance:
   m_ObjectHideFlags: 0

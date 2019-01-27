@@ -39,6 +39,11 @@ public class HumanController : MonoBehaviour
         {
             VehicleHandle(collider.gameObject, true);
         }
+
+        if (collider.gameObject.tag.Equals("GameOver"))
+        {
+            GameObject.Find("Menu UI").GetComponent<GameOver>().isGameOver = true;
+        }
     }
 
 

@@ -1,7 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class DontDestroy : MonoBehaviour {
+
+    public bool gameOver = false;
+
 
 	void Start()
 	{

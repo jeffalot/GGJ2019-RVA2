@@ -8,6 +8,7 @@ public class ShowPanels : MonoBehaviour {
 	public GameObject optionsTint;							//Store a reference to the Game Object OptionsTint 
 	public GameObject menuPanel;							//Store a reference to the Game Object MenuPanel 
 	public GameObject pausePanel;                           //Store a reference to the Game Object PausePanel 
+    public GameObject gameOverPanel;							//Store a reference to the Game Object gameOverPanel 
 
     private GameObject activePanel;                         
     private MenuObject activePanelMenuObject;
@@ -62,9 +63,23 @@ public class ShowPanels : MonoBehaviour {
 		menuPanel.SetActive (false);
 
 	}
-	
-	//Call this function to activate and display the Pause panel during game play
-	public void ShowPausePanel()
+
+    //Call this function to activate and display the main menu panel during the main menu
+    public void ShowGameOver()
+    {
+        gameOverPanel.SetActive(true);
+        SetSelection(menuPanel);
+    }
+
+    //Call this function to deactivate and hide the main menu panel during the main menu
+    public void HideGameOver()
+    {
+        gameOverPanel.SetActive(false);
+
+    }
+
+    //Call this function to activate and display the Pause panel during game play
+    public void ShowPausePanel()
 	{
 		pausePanel.SetActive (true);
 		optionsTint.SetActive(true);

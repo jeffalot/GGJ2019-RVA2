@@ -8,6 +8,8 @@ public class GameSystemController : MonoBehaviour {
     float timeElapsed = 0f;
     public GameObject timeCounter;
 
+
+
 	// Use this for initialization
 	void Start () {
 		
@@ -17,7 +19,7 @@ public class GameSystemController : MonoBehaviour {
 	void Update () {
         Text text = (Text)timeCounter.GetComponent<Text>();
         text.text = "Counting: " + (int) timeElapsed;
-	}
+    }
 
     // Update is called once per frame
     void FixedUpdate()
