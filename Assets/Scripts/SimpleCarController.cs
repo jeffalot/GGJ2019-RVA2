@@ -8,6 +8,8 @@ public class SimpleCarController : MonoBehaviour
     public float maxMotorTorque; // maximum torque the motor can apply to wheel
     public float maxSteeringAngle; // maximum steer angle the wheel can have
 
+    public GameObject driver;
+
     public void FixedUpdate()
     {
         float motor = maxMotorTorque * Input.GetAxis("Vertical");
@@ -25,6 +27,18 @@ public class SimpleCarController : MonoBehaviour
                 axleInfo.leftWheel.motorTorque = motor;
                 axleInfo.rightWheel.motorTorque = motor;
             }
+        }
+    }
+
+    public void Update()
+    {
+        if (Input.GetButtonDown("Fire2") && driver != null)
+        {
+            Debug.Log("Getting out of vehicle");
+            driver.transform.position = new Vector3(this.transform.position.x + 3f, this.transform.position.y, this.transform.position.z);
+            driver.active = true;
+            driver = null;
+            this.enabled = false;
         }
     }
 }
