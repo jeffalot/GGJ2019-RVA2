@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 8038389d3ecb5d94b8b14ead76710769
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: body
+    100004: branch
+    100006: branches
+    100008: branches2
+    100010: Car
+    100012: car
+    100014: Car_wheels
+    100016: Car_wheels.001
+    100018: church
+    100020: Cube.005
+    100022: Cube.006
+    100024: Cylinder
+    100026: Cylinder.001
+    100028: Cylinder.002
+    100030: Cylinder.003
+    100032: entrance
+    100034: garage
+    100036: gas_pump
+    100038: gas_pump_mount
+    100040: gas_sign
+    100042: gas_station
+    100044: gas_station_roof
+    100046: gas_station_walls
+    100048: gaspump
+    100050: gass_pump_screen
+    100052: helicopter
+    100054: house_a_1
+    100056: house_b_1
+    100058: house_b_2
+    100060: house_c_1
+    100062: housewall2
+    100064: landing_gear
+    100066: leaves
+    100068: logo
+    100070: main_sign
+    100072: metal_barrier
+    100074: mount1
+    100076: mount2
+    100078: pCylinder1
+    100080: pipe
+    100082: post1
+    100084: post2
+    100086: price_sign
+    100088: propeller1
+    100090: propeller2
+    100092: propellersupport2
+    100094: rock1
+    100096: rock5
+    100098: roof
+    100100: roof 1
+    100102: roof 2
+    100104: roof 3
+    100106: roof 4
+    100108: roof 5
+    100110: roof 6
+    100112: roof1
+    100114: roof2
+    100116: scooter
+    100118: supportleg
+    100120: supportleg2
+    100122: supportleg3
+    100124: supportleg4
+    100126: supportleg5
+    100128: supportleg6
+    100130: supports
+    100132: tank
+    100134: top
+    100136: topring
+    100138: tower
+    100140: tower 1
+    100142: trailer
+    100144: trailer 1
+    100146: trailer_tire_back1
+    100148: trailer_tire_back2
+    100150: trailer_tire_back3
+    100152: trailer_tire_back4
+    100154: trailer_tire_front1
+    100156: trailer_tire_front2
+    100158: trailer_tire_front4
+    100160: trailer_tire_front_3
+    100162: Tree
+    100164: Tree_2
+    100166: Truck
+    100168: truck
+    100170: truck 1
+    100172: truck_mirror
+    100174: truck_mirror2
+    100176: truck_tire1
+    100178: truck_tire_2
+    100180: trunk
+    100182: trunk 1
+    100184: wall
+    100186: walls
+    100188: walls 1
+    100190: walls 2
+    100192: walls 3
+    100194: walls 4
+    100196: walls 5
+    100198: warehouse1
+    100200: warehouse2
+    100202: warehouse3
+    100204: water_tower
+    400000: //RootNode
+    400002: body
+    400004: branch
+    400006: branches
+    400008: branches2
+    400010: Car
+    400012: car
+    400014: Car_wheels
+    400016: Car_wheels.001
+    400018: church
+    400020: Cube.005
+    400022: Cube.006
+    400024: Cylinder
+    400026: Cylinder.001
+    400028: Cylinder.002
+    400030: Cylinder.003
+    400032: entrance
+    400034: garage
+    400036: gas_pump
+    400038: gas_pump_mount
+    400040: gas_sign
+    400042: gas_station
+    400044: gas_station_roof
+    400046: gas_station_walls
+    400048: gaspump
+    400050: gass_pump_screen
+    400052: helicopter
+    400054: house_a_1
+    400056: house_b_1
+    400058: house_b_2
+    400060: house_c_1
+    400062: housewall2
+    400064: landing_gear
+    400066: leaves
+    400068: logo
+    400070: main_sign
+    400072: metal_barrier
+    400074: mount1
+    400076: mount2
+    400078: pCylinder1
+    400080: pipe
+    400082: post1
+    400084: post2
+    400086: price_sign
+    400088: propeller1
+    400090: propeller2
+    400092: propellersupport2
+    400094: rock1
+    400096: rock5
+    400098: roof
+    400100: roof 1
+    400102: roof 2
+    400104: roof 3
+    400106: roof 4
+    400108: roof 5
+    400110: roof 6
+    400112: roof1
+    400114: roof2
+    400116: scooter
+    400118: supportleg
+    400120: supportleg2
+    400122: supportleg3
+    400124: supportleg4
+    400126: supportleg5
+    400128: supportleg6
+    400130: supports
+    400132: tank
+    400134: top
+    400136: topring
+    400138: tower
+    400140: tower 1
+    400142: trailer
+    400144: trailer 1
+    400146: trailer_tire_back1
+    400148: trailer_tire_back2
+    400150: trailer_tire_back3
+    400152: trailer_tire_back4
+    400154: trailer_tire_front1
+    400156: trailer_tire_front2
+    400158: trailer_tire_front4
+    400160: trailer_tire_front_3
+    400162: Tree
+    400164: Tree_2
+    400166: Truck
+    400168: truck
+    400170: truck 1
+    400172: truck_mirror
+    400174: truck_mirror2
+    400176: truck_tire1
+    400178: truck_tire_2
+    400180: trunk
+    400182: trunk 1
+    400184: wall
+    400186: walls
+    400188: walls 1
+    400190: walls 2
+    400192: walls 3
+    400194: walls 4
+    400196: walls 5
+    400198: warehouse1
+    400200: warehouse2
+    400202: warehouse3
+    400204: water_tower
+    2100000: mountain3
+    2100002: mountain4
+    2100004: barrrier_metal
+    2100006: wood
+    2100008: rock2
+    2100010: rock4
+    2100012: homeroof
+    2100014: homewalls
+    2100016: houseroof
+    2100018: housewalls3
+    2100020: houseroof3
+    2100022: houseroof2
+    2100024: housewalls2
+    2100026: warehouse_yellow
+    2100028: warehouse_roof
+    2100030: warehouse_red
+    2100032: warehouse_blue
+    2100034: watertowercolor
+    2100036: watertowersupports
+    2100038: white_walls
+    2100040: brown_roof
+    2100042: truckbody
+    2100044: carwindows
+    2100046: tire
+    2100048: lambert1
+    2100050: truckmirror
+    2100052: trailer1
+    2100054: supports1
+    2100056: propellers
+    2100058: helicopterbody
+    2100060: lambert38
+    2100062: wood2
+    2100064: treetops
+    2100066: scooterdarkgreen
+    2100068: lambert41
+    2100070: scooter_green
+    2100072: CAR
+    2100074: exhaust_pipe
+    2100076: concrete
+    2100078: gassstationpost
+    2100080: gasstationboarder
+    2100082: gasstationwhite
+    2100084: gasstationroof
+    2300000: body
+    2300002: branch
+    2300004: branches
+    2300006: branches2
+    2300008: Car
+    2300010: Car_wheels
+    2300012: Car_wheels.001
+    2300014: Cube.005
+    2300016: Cube.006
+    2300018: Cylinder
+    2300020: Cylinder.001
+    2300022: Cylinder.002
+    2300024: Cylinder.003
+    2300026: entrance
+    2300028: garage
+    2300030: gas_pump_mount
+    2300032: gas_station_roof
+    2300034: gas_station_walls
+    2300036: gaspump
+    2300038: gass_pump_screen
+    2300040: housewall2
+    2300042: landing_gear
+    2300044: leaves
+    2300046: logo
+    2300048: main_sign
+    2300050: metal_barrier
+    2300052: mount1
+    2300054: mount2
+    2300056: pCylinder1
+    2300058: pipe
+    2300060: post1
+    2300062: post2
+    2300064: price_sign
+    2300066: propeller1
+    2300068: propeller2
+    2300070: propellersupport2
+    2300072: rock1
+    2300074: rock5
+    2300076: roof
+    2300078: roof 1
+    2300080: roof 2
+    2300082: roof 3
+    2300084: roof 4
+    2300086: roof 5
+    2300088: roof 6
+    2300090: roof1
+    2300092: roof2
+    2300094: supportleg
+    2300096: supportleg2
+    2300098: supportleg3
+    2300100: supportleg4
+    2300102: supportleg5
+    2300104: supportleg6
+    2300106: tank
+    2300108: top
+    2300110: topring
+    2300112: tower
+    2300114: trailer 1
+    2300116: trailer_tire_back1
+    2300118: trailer_tire_back2
+    2300120: trailer_tire_back3
+    2300122: trailer_tire_back4
+    2300124: trailer_tire_front1
+    2300126: trailer_tire_front2
+    2300128: trailer_tire_front4
+    2300130: trailer_tire_front_3
+    2300132: truck 1
+    2300134: truck_mirror
+    2300136: truck_mirror2
+    2300138: truck_tire1
+    2300140: truck_tire_2
+    2300142: trunk
+    2300144: trunk 1
+    2300146: wall
+    2300148: walls
+    2300150: walls 1
+    2300152: walls 2
+    2300154: walls 3
+    2300156: walls 4
+    2300158: walls 5
+    3300000: body
+    3300002: branch
+    3300004: branches
+    3300006: branches2
+    3300008: Car
+    3300010: Car_wheels
+    3300012: Car_wheels.001
+    3300014: Cube.005
+    3300016: Cube.006
+    3300018: Cylinder
+    3300020: Cylinder.001
+    3300022: Cylinder.002
+    3300024: Cylinder.003
+    3300026: entrance
+    3300028: garage
+    3300030: gas_pump_mount
+    3300032: gas_station_roof
+    3300034: gas_station_walls
+    3300036: gaspump
+    3300038: gass_pump_screen
+    3300040: housewall2
+    3300042: landing_gear
+    3300044: leaves
+    3300046: logo
+    3300048: main_sign
+    3300050: metal_barrier
+    3300052: mount1
+    3300054: mount2
+    3300056: pCylinder1
+    3300058: pipe
+    3300060: post1
+    3300062: post2
+    3300064: price_sign
+    3300066: propeller1
+    3300068: propeller2
+    3300070: propellersupport2
+    3300072: rock1
+    3300074: rock5
+    3300076: roof
+    3300078: roof 1
+    3300080: roof 2
+    3300082: roof 3
+    3300084: roof 4
+    3300086: roof 5
+    3300088: roof 6
+    3300090: roof1
+    3300092: roof2
+    3300094: supportleg
+    3300096: supportleg2
+    3300098: supportleg3
+    3300100: supportleg4
+    3300102: supportleg5
+    3300104: supportleg6
+    3300106: tank
+    3300108: top
+    3300110: topring
+    3300112: tower
+    3300114: trailer 1
+    3300116: trailer_tire_back1
+    3300118: trailer_tire_back2
+    3300120: trailer_tire_back3
+    3300122: trailer_tire_back4
+    3300124: trailer_tire_front1
+    3300126: trailer_tire_front2
+    3300128: trailer_tire_front4
+    3300130: trailer_tire_front_3
+    3300132: truck 1
+    3300134: truck_mirror
+    3300136: truck_mirror2
+    3300138: truck_tire1
+    3300140: truck_tire_2
+    3300142: trunk
+    3300144: trunk 1
+    3300146: wall
+    3300148: walls
+    3300150: walls 1
+    3300152: walls 2
+    3300154: walls 3
+    3300156: walls 4
+    3300158: walls 5
+    4300000: mount1
+    4300002: mount2
+    4300004: metal_barrier
+    4300006: rock1
+    4300008: rock5
+    4300010: roof
+    4300012: walls
+    4300014: roof
+    4300016: walls
+    4300018: roof2
+    4300020: roof1
+    4300022: garage
+    4300024: housewall2
+    4300026: roof
+    4300028: wall
+    4300030: walls
+    4300032: roof
+    4300034: walls
+    4300036: roof
+    4300038: walls
+    4300040: roof
+    4300042: roof
+    4300044: pipe
+    4300046: tank
+    4300048: supportleg
+    4300050: supportleg2
+    4300052: supportleg3
+    4300054: supportleg4
+    4300056: supportleg5
+    4300058: supportleg6
+    4300060: topring
+    4300062: tower
+    4300064: entrance
+    4300066: walls
+    4300068: truck
+    4300070: truck_tire1
+    4300072: truck_tire_2
+    4300074: truck_mirror
+    4300076: truck_mirror2
+    4300078: trailer_tire_back1
+    4300080: trailer_tire_front1
+    4300082: trailer_tire_back2
+    4300084: trailer_tire_front2
+    4300086: trailer_tire_back3
+    4300088: trailer_tire_front_3
+    4300090: trailer_tire_back4
+    4300092: trailer_tire_front4
+    4300094: trailer
+    4300096: propellersupport2
+    4300098: propeller2
+    4300100: propeller1
+    4300102: body
+    4300104: landing_gear
+    4300106: pCylinder1
+    4300108: trunk
+    4300110: branch
+    4300112: top
+    4300114: trunk
+    4300116: branches
+    4300118: branches2
+    4300120: leaves
+    4300122: Cube.005
+    4300124: Cylinder
+    4300126: Cylinder.001
+    4300128: Cube.006
+    4300130: Cylinder.002
+    4300132: Cylinder.003
+    4300134: Car
+    4300136: Car_wheels
+    4300138: Car_wheels.001
+    4300140: gas_pump_mount
+    4300142: gaspump
+    4300144: gass_pump_screen
+    4300146: gas_station_walls
+    4300148: gas_station_roof
+    4300150: logo
+    4300152: price_sign
+    4300154: main_sign
+    4300156: post1
+    4300158: post2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
