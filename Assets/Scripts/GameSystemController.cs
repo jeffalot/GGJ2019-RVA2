@@ -19,6 +19,20 @@ public class GameSystemController : MonoBehaviour {
 	void Update () {
         Text text = (Text)timeCounter.GetComponent<Text>();
         text.text = "Counting: " + (int) timeElapsed;
+
+        if(timeElapsed > 60f)
+        {
+            GameObject.Find("Menu UI").GetComponent<GameOver>().isGameOver = true;
+            Text gameOverText = (Text)GameObject.Find("GameOverText").GetComponent<Text>();
+            gameOverText.text = "Out of time!";
+
+            GameObject.Find("TimeText").active = false;
+            GameObject.FindWithTag("GameOverImage").active = true;
+
+
+        }
+
+
     }
 
     // Update is called once per frame

@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.6226415, g: 0.037306596, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.754717, g: 0.14421304, b: 0.10323961, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -3898,7 +3898,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &91369507
 GameObject:
   m_ObjectHideFlags: 0
@@ -11971,22 +11971,22 @@ PrefabInstance:
     - target: {fileID: 2351053748353080707, guid: 1d7b90893a3372e4eb6ffda90c320c1e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2351053748353080705, guid: 1d7b90893a3372e4eb6ffda90c320c1e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.26
+      value: 8.59
       objectReference: {fileID: 0}
     - target: {fileID: 2351053748353080705, guid: 1d7b90893a3372e4eb6ffda90c320c1e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.21
+      value: 0.46
       objectReference: {fileID: 0}
     - target: {fileID: 2351053748353080705, guid: 1d7b90893a3372e4eb6ffda90c320c1e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 32.88
+      value: 34.27
       objectReference: {fileID: 0}
     - target: {fileID: 2351053748353080705, guid: 1d7b90893a3372e4eb6ffda90c320c1e,
         type: 3}
@@ -12048,6 +12048,16 @@ PrefabInstance:
       propertyPath: maxMotorTorque
       value: 10000
       objectReference: {fileID: 0}
+    - target: {fileID: 2351053747481904792, guid: 1d7b90893a3372e4eb6ffda90c320c1e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 07e99956ac737074a828408b1d9f7c57, type: 2}
+    - target: {fileID: 2351053747481904792, guid: 1d7b90893a3372e4eb6ffda90c320c1e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100072, guid: 7ffd22f14b5deeb4ea3053e2f982200e, type: 3}
     - target: {fileID: 2351053748353080719, guid: 1d7b90893a3372e4eb6ffda90c320c1e,
         type: 3}
       propertyPath: m_Enabled
@@ -12068,6 +12078,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 2351053747481904794, guid: 1d7b90893a3372e4eb6ffda90c320c1e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100072, guid: 7ffd22f14b5deeb4ea3053e2f982200e, type: 3}
+    - target: {fileID: 2351053747481904796, guid: 1d7b90893a3372e4eb6ffda90c320c1e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100072, guid: 7ffd22f14b5deeb4ea3053e2f982200e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d7b90893a3372e4eb6ffda90c320c1e, type: 3}
 --- !u!1 &465486603
@@ -23554,8 +23574,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 1, g: 0.7801145, b: 0.495283, a: 1}
-  m_Intensity: 0.56
+  m_Color: {r: 0.9528302, g: 0.58645785, b: 0.43596476, a: 1}
+  m_Intensity: 0.77
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
